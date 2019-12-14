@@ -14,5 +14,12 @@ public class algorithmMain {
         System.out.println(selectinSort.toString());
         selectinSort.sort();
         System.out.println(selectinSort.toString());
+
+        //Merge sort
+        int[] arr2 = {10,4,20,50,40,6};
+        MergeSort mergeSort = new MergeSort(arr2);
+        System.out.println(mergeSort.toString());
+        mergeSort.mergeSort(arr2,0,arr2.length-1);
+        System.out.println(mergeSort.toString());
     }
 }
