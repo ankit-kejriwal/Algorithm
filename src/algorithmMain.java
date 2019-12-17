@@ -28,5 +28,10 @@ public class algorithmMain {
         System.out.println(quickSort.toString());
         quickSort.sort(arr3,0,arr3.length-1);
         System.out.println(quickSort.toString());
+
+        BinarySearch binarySearch = new BinarySearch();
+        binarySearch.check(arr3,3);
+        binarySearch.check(arr3,40);
+        binarySearch.check(arr1,10);
     }
 }
