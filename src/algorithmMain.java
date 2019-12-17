@@ -21,5 +21,12 @@ public class algorithmMain {
         System.out.println(mergeSort.toString());
         mergeSort.mergeSort(arr2,0,arr2.length-1);
         System.out.println(mergeSort.toString());
+
+        //Merge sort
+        int[] arr3 = {10,4,20,50,40,6};
+        QuickSort quickSort = new QuickSort(arr3);
+        System.out.println(quickSort.toString());
+        quickSort.sort(arr3,0,arr3.length-1);
+        System.out.println(quickSort.toString());
     }
 }
